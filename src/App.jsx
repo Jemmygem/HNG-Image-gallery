@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Gallery from "./components/gallery";
-import Navbar from "./components/layouts/Navbar";
-import Login from "./components/login";
-import Register from "./components/Register"
+import Gallery from "./components/gallery.jsx";
+import Navbar from "./components/layouts/Navbar.jsx";
+import Login from "./components/Login.jsx";
+import Register from "./components/Register.jsx"
 
 function App() {
   const auth = sessionStorage.getItem("imageGalleryAuth");
